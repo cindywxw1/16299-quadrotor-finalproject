@@ -113,8 +113,8 @@ a peak altitude deviation of ~2.3m with no full recovery within
 10s. A more extreme 0.5→5 kg step caused unrealistic thrust 
 spikes, highlighting the limits of fixed-gain control.
 
-![Phase 3 Fixed PID Response](pic\phase3.png)
-![Phase 3 Fixed PID Response2](pic\phase3b.png)
+![Phase 3 Fixed PID Response](pic/phase3.png)
+![Phase 3 Fixed PID Response2](pic/phase3b.png)
 
 
 ### Adaptive Gain Scheduling (Phase 4)
@@ -147,7 +147,7 @@ integrator and decreases transient response time.
 to the altitude PID to prevent integral windup during sustained 
 payload phases.
 
-![Phase 4 Adaptive PID Response](\picphase4.png)
+![Phase 4 Adaptive PID Response](pic/phase4.png)
 
 ### Realistic Disturbances (Phase 5)
 
@@ -164,7 +164,7 @@ paired Step blocks.
 sample time=0.01s) with independent random seeds was injected 
 into U1, U2, and U3, simulating wind gusts and sensor noise.
 
-![Phase 5 With Disturbances](\picphase5.png)
+![Phase 5 With Disturbances](pic/phase5.png)
 
 ---
 
